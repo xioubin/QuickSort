@@ -62,7 +62,6 @@ int main(int argc, const char * argv[]) {
         input.push_back(str);
         str.clear();
     }
-    int loc;
     quicksort(input, 0, (int)input.size()-1);
     for(int i=0;i<input.size();i++){
         cout<<input[i];
